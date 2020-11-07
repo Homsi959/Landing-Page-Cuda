@@ -1,0 +1,61 @@
+@media only screen and (max-width: 1280px){
+	#dignity section {margin: 40px 15px}
+	#assistant section {margin: 40px -25px}
+	#we-got-skills section {margin: 115px 20px 0 20px}
+}
+
+@media only screen and (max-width:1191px){
+	.footer-wrap footer ul li {margin: 40px 20px}
+}
+
+@media only screen and (max-width: 976px){
+	#dignity section {margin: 40px 56px}
+	#assistant section {margin: 40px 15px}
+	.menu-trigger {
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 30px;
+		padding: 15px;
+		transition: .3s;
+		border-radius: 5px;
+	}
+	.menu-trigger:hover {
+		background: #643a79;
+	}
+	.menu-trigger:focus {
+		background: #643a79;
+		border-radius: 5px 5px 0 0;
+	}
+	nav {
+		color: #fff;
+		text-align: center;
+		top: 90px;
+		right: 0;
+		left: 0;
+		background: #643a79;
+		border-radius: 0 0 15px 15px;
+	}
+	nav ul li {
+		display: block;
+	}
+	nav ul li a {
+		padding: 10px 0;
+		border-radius: 0;
+		width: 100%;
+		display: block;
+	}
+	nav ul li a:hover {
+		background: #552E69;
+	}
+}
+
+@media only screen and (max-width: 900px){
+	#get-in-touch form input {margin: 30px 18px 0 18px}
+	#get-in-touch form textarea {min-width: 405px; max-width: 405px}
+}
+
+@media only screen and (max-width:840px){
+	header h2 {margin-top: 85px}
+	#we-got-skills section {margin: 60px 65px 0 65px}
+}
